@@ -25,7 +25,7 @@ if len(profile_names) != 0:
                                                capture_output=True).stdout.decode()
             password = re.search("Key Content (.*)\r", profile_info_pass)
 
-            if password == None:
+            if password is None:
                 wifi_profile["password"] = None
             else:
                 wifi_profile["password"] = password[1]
