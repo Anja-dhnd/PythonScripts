@@ -14,3 +14,7 @@ except:
     enc_wrd = word.encode('utf-8')
     digest = hashlib.md5(enc_wrd.strip()).hexdigest()
 
+    if digest == pass_hash:
+        print("Password found")
+        print("It is " + word)
+        break
