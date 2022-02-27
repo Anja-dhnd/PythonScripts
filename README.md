@@ -1,4 +1,3 @@
 # pythonProjects
-
-DON'T BE A SCRIPT KIDDIE. 
+Don't be a script kiddie. 
 Learn. Create. Hack.
